@@ -1,0 +1,2 @@
+{"task_id":"exact-auth-symbol","query":"authenticate","expected_paths":["src/auth.py"]}
+{"task_id":"client-symbol","query":"createClient","expected_paths":["src/client.ts"]}

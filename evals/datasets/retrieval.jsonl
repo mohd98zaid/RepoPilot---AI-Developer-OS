@@ -1,0 +1,25 @@
+{"task_id":"auth-symbol","query":"authenticate_user","expected_paths":["auth.py"]}
+{"task_id":"login","query":"Where are login credentials verified?","expected_paths":["auth.py"]}
+{"task_id":"session","query":"revoke_session","expected_paths":["auth.py"]}
+{"task_id":"invoice","query":"invoice_total","expected_paths":["billing.py"]}
+{"task_id":"tax","query":"Calculate invoice totals including tax","expected_paths":["billing.py"]}
+{"task_id":"refund","query":"refund exceeds balance","expected_paths":["billing.py"]}
+{"task_id":"cache","query":"cache_lookup","expected_paths":["cache.py"]}
+{"task_id":"ttl","query":"Expire cached entries TTL deadline","expected_paths":["cache.py"]}
+{"task_id":"invalidate","query":"invalidate_cache","expected_paths":["cache.py"]}
+{"task_id":"config","query":"load_configuration","expected_paths":["config.py"]}
+{"task_id":"port","query":"port out of range","expected_paths":["config.py"]}
+{"task_id":"queue","query":"enqueue_job","expected_paths":["queue.py"]}
+{"task_id":"retry","query":"retry budget exhausted","expected_paths":["queue.py"]}
+{"task_id":"upload","query":"resolve_upload","expected_paths":["storage.py"]}
+{"task_id":"traversal","query":"upload path traversal storage directory","expected_paths":["storage.py"]}
+{"task_id":"checksum","query":"file_checksum","expected_paths":["storage.py"]}
+{"task_id":"audit","query":"record_audit_event","expected_paths":["audit.py"]}
+{"task_id":"actor","query":"filter_audit_events","expected_paths":["audit.py"]}
+{"task_id":"email","query":"email notification greeting","expected_paths":["notifications.py"]}
+{"task_id":"unsubscribe","query":"unsubscribe","expected_paths":["notifications.py"]}
+{"task_id":"paging","query":"offset pagination","expected_paths":["paging.py"]}
+{"task_id":"cursor","query":"cursor_after","expected_paths":["paging.py"]}
+{"task_id":"discount","query":"apply_discount","expected_paths":["pricing.py"]}
+{"task_id":"money","query":"currency_round","expected_paths":["pricing.py"]}
+{"task_id":"sha256","query":"hashlib sha256","expected_paths":["auth.py","storage.py"]}

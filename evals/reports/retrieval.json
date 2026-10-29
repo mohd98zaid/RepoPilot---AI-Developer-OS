@@ -1,0 +1,241 @@
+{
+  "cases": 25,
+  "recall_at_5": 1.0,
+  "mrr": 1.0,
+  "p50_ms": 3.2905999978538603,
+  "p95_ms": 5.103600007714704,
+  "results": [
+    {
+      "task_id": "auth-symbol",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "latency_ms": 5.103600007714704,
+      "paths": [
+        "auth.py"
+      ]
+    },
+    {
+      "task_id": "login",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "latency_ms": 2.6594999944791198,
+      "paths": [
+        "auth.py"
+      ]
+    },
+    {
+      "task_id": "session",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "latency_ms": 4.082700004801154,
+      "paths": [
+        "auth.py"
+      ]
+    },
+    {
+      "task_id": "invoice",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "latency_ms": 1.989599986700341,
+      "paths": [
+        "billing.py"
+      ]
+    },
+    {
+      "task_id": "tax",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "latency_ms": 3.219400008674711,
+      "paths": [
+        "billing.py",
+        "pricing.py"
+      ]
+    },
+    {
+      "task_id": "refund",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "latency_ms": 2.050799987046048,
+      "paths": [
+        "billing.py"
+      ]
+    },
+    {
+      "task_id": "cache",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "latency_ms": 3.446499991696328,
+      "paths": [
+        "cache.py"
+      ]
+    },
+    {
+      "task_id": "ttl",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "latency_ms": 1.8332000181544572,
+      "paths": [
+        "cache.py"
+      ]
+    },
+    {
+      "task_id": "invalidate",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "latency_ms": 3.4060000034514815,
+      "paths": [
+        "cache.py"
+      ]
+    },
+    {
+      "task_id": "config",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "latency_ms": 3.9241999911610037,
+      "paths": [
+        "config.py"
+      ]
+    },
+    {
+      "task_id": "port",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "latency_ms": 3.517999983159825,
+      "paths": [
+        "config.py",
+        "pricing.py"
+      ]
+    },
+    {
+      "task_id": "queue",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "latency_ms": 2.743299992289394,
+      "paths": [
+        "queue.py"
+      ]
+    },
+    {
+      "task_id": "retry",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "latency_ms": 2.7618000167421997,
+      "paths": [
+        "queue.py"
+      ]
+    },
+    {
+      "task_id": "upload",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "latency_ms": 4.547599994111806,
+      "paths": [
+        "storage.py"
+      ]
+    },
+    {
+      "task_id": "traversal",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "latency_ms": 2.07570000202395,
+      "paths": [
+        "storage.py"
+      ]
+    },
+    {
+      "task_id": "checksum",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "latency_ms": 3.2905999978538603,
+      "paths": [
+        "storage.py"
+      ]
+    },
+    {
+      "task_id": "audit",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "latency_ms": 3.797499986831099,
+      "paths": [
+        "audit.py"
+      ]
+    },
+    {
+      "task_id": "actor",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "latency_ms": 3.1441999890375882,
+      "paths": [
+        "audit.py"
+      ]
+    },
+    {
+      "task_id": "email",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "latency_ms": 1.7134000081568956,
+      "paths": [
+        "notifications.py"
+      ]
+    },
+    {
+      "task_id": "unsubscribe",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "latency_ms": 3.4106000093743205,
+      "paths": [
+        "notifications.py"
+      ]
+    },
+    {
+      "task_id": "paging",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "latency_ms": 2.2689999896101654,
+      "paths": [
+        "paging.py"
+      ]
+    },
+    {
+      "task_id": "cursor",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "latency_ms": 3.3497999829705805,
+      "paths": [
+        "paging.py"
+      ]
+    },
+    {
+      "task_id": "discount",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "latency_ms": 2.0570999768096954,
+      "paths": [
+        "pricing.py"
+      ]
+    },
+    {
+      "task_id": "money",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "latency_ms": 4.487400001380593,
+      "paths": [
+        "pricing.py"
+      ]
+    },
+    {
+      "task_id": "sha256",
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "latency_ms": 5.44779998017475,
+      "paths": [
+        "auth.py",
+        "storage.py"
+      ]
+    }
+  ],
+  "os": "Windows-11-10.0.26300-SP0",
+  "python": "3.14.7",
+  "commit": "58787f21b7ca7d85453ab337bf62a04c5f59802c",
+  "scope": "25 synthetic retrieval queries, 10 MIT fixture modules; no diagnosis or patch-quality claims"
+}
